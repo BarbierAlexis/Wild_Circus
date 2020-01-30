@@ -1,0 +1,36 @@
+.home-link {
+  text-decoration: none;
+}
+
+#navbarNav a{
+  color: #192d52;
+}
+
+.navbar-light .navbar-brand {
+  color: #192d52 !important;
+  font-size: 50px;
+}
+
+.navbar-collapse ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-collapse ul li{
+    display: flex;
+    justify-content: center;
+    width: 33%;
+  }
+
+
+@media screen and (min-width: 990px){
+  .navbar-collapse ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+}

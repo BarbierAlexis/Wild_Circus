@@ -1,0 +1,13 @@
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
+h2{
+    font-size: 40px;
+    color: #192d52;
+  }
+
+p {
+  color: #192d52;
+}

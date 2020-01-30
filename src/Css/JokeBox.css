@@ -1,0 +1,36 @@
+.jokebox {
+    height: calc(100vh - 100px);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jokebox h2{
+    margin-bottom: 80px;
+}
+
+.jokebox button {
+    width: 80%;
+}
+
+.jokebox a {
+    color: #192d52;
+}
+
+.MuiGridList-root {
+    padding-top: 1%;
+    margin: 10%, 0 !important;
+    width: 80%;
+    height: 50%;
+}
+.MuiGridList-root p {
+    text-align: center;
+    height: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+}

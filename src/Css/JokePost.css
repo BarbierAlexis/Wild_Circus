@@ -1,0 +1,22 @@
+.jokepost {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+}
+
+.jokepost h2 {
+  width: 80%;
+  margin: 5% 0;
+} 
+
+.jokepost form {
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+.jokepost button{
+  width: 80%;
+}
