@@ -18,6 +18,8 @@ app.use(bodyParser.urlencoded({
   extended: true,
 }));
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(bodyParser.json({ limit: '10mb' }));
+app.use(bodyParser.urlencoded({ extended: true, limit: '10mb' }));
 
 app.use('/joke', jokeRouter);
 app.use('/picture', pictureRouter);

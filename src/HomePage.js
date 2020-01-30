@@ -84,7 +84,7 @@ function HomePage() {
         </Card>
       </div>
       <div className="prices">
-        <h2>Come and discover our prices with our magic board!</h2>
+        <h2>Come and discover our magic prices!</h2>
         <div className="table">
           <TableContainer component={Paper}>
             <Table aria-label="simple table">
@@ -122,7 +122,6 @@ function HomePage() {
           </TableContainer>
         </div>
       </div>
-      
     </>
   );
 }

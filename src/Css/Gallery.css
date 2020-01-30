@@ -1,0 +1,36 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: calc(100vh - 116px);
+}
+
+.gallery .MuiGridList-root {
+  padding-top: 1%;
+  margin: 10%, 0 !important;
+  width: 80%;
+  height: 50%;
+}
+
+.gallery .MuiGridList-root li {
+  height: 50% !important;
+}
+
+@media screen and (min-width: 850px){
+  .gallery .MuiGridList-root {
+    width: 70%;
+  }
+  .gallery button {
+    width: 70%;
+  }  
+}
+
+@media screen and (min-width: 990px){
+  .gallery .MuiGridList-root {
+    width: 60%;
+  }
+  .gallery button {
+    width: 60%;
+  } 
+}

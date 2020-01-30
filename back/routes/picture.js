@@ -22,7 +22,6 @@ router.get('/', (req, res) => {
 // Upload de fichiers
 const storage = multer.diskStorage({
     destination(req, file, cb) {
-      // si le dossier existe pas le créer
       cb(null, './public/uploads');
     },
     filename(req, file, cb) {
@@ -65,6 +64,29 @@ const storage = multer.diskStorage({
     }
   });
 
-  
+  router.post('/', upload.single('picture'), (req, res) => {
+    let file;
+    if (req.file !== undefined) {
+      file = req.file.filename;
+    } else {
+      file = '';
+    }
+    if (req.body) {
+      const name = req.body;
+        connection.query(`INSERT INTO picture (name)
+          VALUES (?)`,
+        [name],
+        (err) => {
+          if (err) {
+            console.log(err);
+            res.sendStatus(500);
+          } else {
+            res.sendStatus(200);
+          }
+        });
+    } else {
+      res.sendStatus(400);
+    }
+  });
 
 module.exports = router;

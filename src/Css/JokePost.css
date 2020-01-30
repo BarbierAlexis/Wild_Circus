@@ -4,7 +4,7 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 116px);
 }
 
 .jokepost h2 {
@@ -19,4 +19,22 @@
 
 .jokepost button{
   width: 80%;
+}
+
+@media screen and (min-width: 850px){
+  .jokepost form {
+    width: 70%;
+  }
+  .jokepost button {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 990px){
+  .jokepost form {
+    width: 60%;
+  }
+  .jokepost button {
+    width: 60%;
+  }
 }

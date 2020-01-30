@@ -4,11 +4,14 @@
 
 #navbarNav a{
   color: #192d52;
+  font-family: 'Amatic SC';
+  font-size: 30px;
 }
 
 .navbar-light .navbar-brand {
   color: #192d52 !important;
-  font-size: 50px;
+  font-size: 60px;
+  font-family: 'Amatic SC';
 }
 
 .navbar-collapse ul{
