@@ -38,3 +38,13 @@ INSERT INTO picture (name)
   ('cirque18.jpeg'),
   ('cirque19.jpeg'),
   ('cirque20.jpeg');
+
+
+  INSERT INTO joke (joke, name, country) 
+  VALUES 
+  ('J’ai raconté une blague à un Parisien… Il a pas ri…', 'Jean', 'France'),
+  ('Qu’est-ce qui est petit, carré et jaune ? -Un petit carré jaune!!!', 'Pedro', 'Brazil'),
+  ('Avec quoi ramasse-ton la papaille? -Avec une foufourche!', 'Gustav', 'Norway'),
+  ('Comment appelle-t-on une blonde qui ne comprends rien à l’informatique ? -Une e-conne', 'Jo le matcho', 'Belgium'),
+  ('Pourquoi quand on veut viser on ferme un œil ? -Car si on fermait les deux on verrait plus rien !', 'Léa', 'Italy'),
+  ('Pourquoi les plongeurs plongent-ils en arrière? -Parce que si ils plongent en avant ils tombent dans le bateau!', 'John', 'Ireland');

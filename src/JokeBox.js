@@ -39,7 +39,7 @@ const [jokes, setJokes] = useState([]);
       <GridList cellHeight={160} cols={1}>
         {handleMap().length > 0 ? handleMap() : <p>Aucune blague</p>}
       </GridList>
-      <Link to="/jokepost"><button type="button" class="btn btn-warning">Post a Joke!</button></Link>
+      <Link to="/jokepost"><button type="button" className="btn btn-warning">Post a Joke!</button></Link>
     </div>
    
     </>
