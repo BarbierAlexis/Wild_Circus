@@ -1,10 +1,8 @@
 # Wild Circus
-...
+Le site Wild Circus fait la promotion d'une troupe de cirque internationnale. Il possède une "JokeBox" qui permet à l'utilisateur de découvrir une liste de blagues et de pouvoir poster ses propres blagues si il le souhaite. L'application contient également une gallerie photo ainsi qu'un formulaire de contact. 
 
-## Pour commencer
-- création des dossiers ‘public’ et ‘uploads’
 
-### Pré-requis (installation backEnd)
+### Pré-requis
 - npm/yarn
 - mysql
 - nodeJS
@@ -15,12 +13,9 @@
 - Suivre les instructions en commentaires dans les fichiers conf.default.js
 
 ## Démarrage
-- utiliser la commande ‘node/nodemon index.js’ en ligne de commande pour lancer l’api. Le
+- utiliser la commande ‘node back/index.js’ en ligne de commande pour lancer le serveur back. Le
 terminal doit retourner le message ‘Server is listening on 8000’.
+- utiliser la commande ‘npm start index.js’ en ligne de commande pour lancer l'application.
 
 ## Auteurs
-*
-*
-*
-*
 **Alexis Barbier*
