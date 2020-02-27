@@ -28,7 +28,7 @@ function Gallery() {
     return pictures.map((picture, index) => {
       return (
         <GridListTile key={index}>
-          <img src={`http://localhost:3000/uploads/${picture.name}`} />
+          <img src={`${apiEndPoint}/uploads/${picture.name}`} />
         </GridListTile>
       )
     })
