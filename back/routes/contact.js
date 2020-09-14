@@ -15,7 +15,7 @@ router.post('/', (req) => {
     host: 'smtp.gmail.com', // (!)autorisation obligatoire(!) => https://myaccount.google.com/lesssecureapps
     auth: {
       user: 'barbier.alexis06@gmail.com', // adresse GMAIL uniquement
-      pass: 'Ab061293?', // mot de passe gmail
+      pass: '', // mot de passe gmail
     },
     tls: {
       rejectUnauthorized: false,
